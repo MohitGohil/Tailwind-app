@@ -1,15 +1,22 @@
 {
-  "name": "Tailwind",
+  "name": "tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.0.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohitGohil/Tailwind-app.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^3.0.9"
-  }
+  "bugs": {
+    "url": "https://github.com/MohitGohil/Tailwind-app/issues"
+  },
+  "homepage": "https://github.com/MohitGohil/Tailwind-app#readme"
 }
