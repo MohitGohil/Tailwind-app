@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MohitGohil/Tailwind-app/issues"
   },
-  "homepage": "https://github.com/MohitGohil/Tailwind-app#readme"
+  "homepage": "https://github.com/MohitGohil/Tailwind-app#readme",
+  "dependencies": {
+    "firebase": "^9.6.3"
+  }
 }
