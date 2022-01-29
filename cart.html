@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="./public/style.css" /> -->
+    <link rel="stylesheet" href="./public/style.css" />
     <title>Amazone clone</title>
 
 </head>
@@ -48,8 +48,12 @@
                         d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
                 <!-- cart cart-icon -->
-                <div
-                    class="cart-icon h-10 w-10 bg-yellow-500 flex items-center justify-center rounded-xl text-gray-600">
+                <div class=" cart-icon relative h-10 w-10 bg-yellow-500 flex items-center justify-center rounded-xl
+                    text-gray-600">
+                    <!-- counter -->
+                    <div
+                        class="cart-item-number text-gray-800 text-xs absolute -top-1 -right-1 h-4 w-4 bg-white rounded-lg flex justify-center items-center">
+                        1</div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -238,6 +242,7 @@
 <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.1/dist/jdenticon.min.js" async
     integrity="sha384-l0/0sn63N3mskDgRYJZA6Mogihu0VY3CusdLMiwpJ9LFPklOARUcOiWEIGGmFELx"
     crossorigin="anonymous"></script>
-<script src="./firebase.js"></script>
+<script type="module" src="./firebase.js"></script>
+<script src="./script.js"></script>
 
 </html>

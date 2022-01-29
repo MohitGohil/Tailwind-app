@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <link rel="stylesheet" href="./public/style.css" /> -->
+  <link rel="stylesheet" href="./public/style.css" />
   <title>Amazone clone</title>
 </head>
 
@@ -173,24 +173,8 @@
       <!-- products -->
       <div class="hot-deals mt-5">
         <h1 class="text-2xl font-bold text-gray-700 mb-5">Hot deals</h1>
-        <div class="main-saction-products">
-          <div class="main-products">
-            <div class="product-image w-48 h-52 bg-white rounded-lg p-4">
-              <img class="w-full h-full object-contain" src="./img/dummy.jpg">
-            </div>
-            <div class="product-name text-gray-700 font-bold mt-2 text-sm">
-              Android Mobile
-            </div>
-            <div class="product-make text-green-700 font-bold">
-              Google
-            </div>
-            <div class="product-rating text-yellow-300 font-bold my-1">
-              * * * * *
-            </div>
-            <div class="product-price font-bold text-gray-700 text-lg">
-              16k
-            </div>
-          </div>
+        <div class="main-saction-products flex">
+          <!-- list of products to be displayed -->
         </div>
       </div>
 
@@ -201,6 +185,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.1/dist/jdenticon.min.js" async
   integrity="sha384-l0/0sn63N3mskDgRYJZA6Mogihu0VY3CusdLMiwpJ9LFPklOARUcOiWEIGGmFELx" crossorigin="anonymous"></script>
-<script src="./firebase.js"></script>
+<script type="module" src="./firebase.js"></script>
+<script src="./script.js"></script>
 
 </html>
